@@ -1,0 +1,15 @@
+.sidebar-profile .sidebar-profile-picture {
+    width: 50% !important;
+    height: auto !important;
+    border-radius: 25% !important;
+}
+
+#header .header-right-picture .header-picture {
+    width:  100%  !important;
+    height:  auto !important;
+    border-radius: 25% !important;
+}
+
+
+
+

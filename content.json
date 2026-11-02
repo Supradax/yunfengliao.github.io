@@ -1,0 +1,199 @@
+{
+  "publications": [
+    {
+      "id": "skeletons",
+      "title": "From Walks to Skeletons: A Reusable Transport Architecture for Interactive Monte Carlo PDE Solvers",
+      "authors": [
+        "Yunfeng Liao*",
+        "Yucheng Wu*",
+        "Xiucheng Li"
+      ],
+      "year": 2026,
+      "type": "preprint",
+      "venue": "arXiv preprint · 2026",
+      "url": "https://arxiv.org/abs/2610.36931",
+      "pdf": "assets/skeletons.pdf",
+      "teaser": "assets/skeletons-teaser.webp",
+      "summary": "Reusable transport structures for efficient PDE queries, changing boundary conditions, and interactive geometry edits.",
+      "keywords": [
+        "Walk on Spheres"
+      ]
+    },
+    {
+      "id": "multiscale",
+      "title": "Walk on Multiscale Media: Compiling Editable and Composable Transport Medium Prefabs for Monte Carlo PDE Solvers",
+      "authors": [
+        "Yunfeng Liao",
+        "Xiucheng Li"
+      ],
+      "year": 2026,
+      "type": "preprint",
+      "venue": "arXiv preprint · 2026",
+      "url": "https://arxiv.org/abs/2610.35952",
+      "pdf": "assets/multiscale.pdf",
+      "teaser": "assets/multiscale-teaser.webp",
+      "summary": "Compiling fine-scale heterogeneous transport into editable, composable prefabs for repeated pointwise PDE queries.",
+      "keywords": [
+        "Walk on Spheres"
+      ]
+    },
+    {
+      "id": "envelopes",
+      "title": "Walk in Envelopes: Efficient Branching Walk-on-Spheres via Certified Solution Bounds",
+      "authors": [
+        "Yunfeng Liao",
+        "Zhenhao Qiu",
+        "Xinyang Chen",
+        "Xiucheng Li"
+      ],
+      "year": 2026,
+      "type": "preprint",
+      "venue": "arXiv preprint · 2026",
+      "url": "https://arxiv.org/abs/2610.25297",
+      "pdf": "assets/envelopes.pdf",
+      "teaser": "assets/envelopes-teaser.webp",
+      "summary": "Certified solution bounds transform branching diffusion to reduce computational cost while preserving unbiasedness.",
+      "keywords": [
+        "Walk on Spheres"
+      ]
+    },
+    {
+      "id": "ambient",
+      "title": "Walk-on-Ambient-Patch: Solver-Adapted Isometric Embeddings for Projected Walk on Spheres",
+      "authors": [
+        "Yunfeng Liao",
+        "Xiucheng Li"
+      ],
+      "year": 2026,
+      "type": "preprint",
+      "venue": "arXiv preprint · 2026",
+      "url": "https://arxiv.org/abs/2610.15573",
+      "pdf": "assets/ambient.pdf",
+      "teaser": "assets/ambient-teaser.webp",
+      "summary": "Choosing surface embeddings and projection states jointly to improve stochastic PDE solving on folded geometry.",
+      "keywords": [
+        "Walk on Spheres"
+      ]
+    },
+    {
+      "id": "dec-hognn",
+      "title": "Boundary-Value PDEs Meet Higher-Order Differential Topology-aware GNNs",
+      "authors": [
+        "Yunfeng Liao",
+        "Yangxin Wu",
+        "Xiucheng Li"
+      ],
+      "year": 2025,
+      "type": "conference",
+      "venue": "NeurIPS 2025",
+      "url": "https://openreview.net/forum?id=PluDA8DEar",
+      "pdf": "assets/dec-hognn.pdf",
+      "teaser": "assets/dec-hognn-teaser.webp",
+      "summary": "Higher-order message passing grounded in discrete exterior calculus for boundary-value problems in electromagnetism.",
+      "code": "https://github.com/Supradax/Higher-Order-Differential-Topology-aware-GNN",
+      "spotlight": true,
+      "keywords": [
+        "Neural Operators"
+      ]
+    },
+    {
+      "id": "curvgt",
+      "title": "Curvature-aware Graph Attention for PDEs on Manifolds",
+      "authors": [
+        "Yunfeng Liao",
+        "Jiawen Guan",
+        "Xiucheng Li"
+      ],
+      "year": 2025,
+      "type": "conference",
+      "venue": "ICML 2025",
+      "url": "https://proceedings.mlr.press/v267/liao25b.html",
+      "pdf": "assets/curvgt.pdf",
+      "teaser": "assets/curvgt-teaser.webp",
+      "summary": "Curvature-aware attention and parallel transport bring intrinsic surface geometry into neural PDE solvers.",
+      "code": "https://github.com/Supradax/CurvGT",
+      "keywords": [
+        "Neural Operators"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-10",
+      "label": "Oct 2026",
+      "parts": [
+        {
+          "text": "Four new preprints on Monte Carlo PDE solvers: "
+        },
+        {
+          "text": "reusable transport skeletons",
+          "url": "https://arxiv.org/abs/2610.36931"
+        },
+        {
+          "text": ", "
+        },
+        {
+          "text": "multiscale media",
+          "url": "https://arxiv.org/abs/2610.35952"
+        },
+        {
+          "text": ", "
+        },
+        {
+          "text": "certified solution envelopes",
+          "url": "https://arxiv.org/abs/2610.25297"
+        },
+        {
+          "text": ", and "
+        },
+        {
+          "text": "solver-adapted embeddings",
+          "url": "https://arxiv.org/abs/2610.15573"
+        },
+        {
+          "text": "."
+        }
+      ],
+      "tag": "PREPRINTS"
+    },
+    {
+      "date": "2025-09",
+      "label": "Sept 2025",
+      "parts": [
+        {
+          "text": "DEC-HOGNN",
+          "url": "https://openreview.net/forum?id=PluDA8DEar"
+        },
+        {
+          "text": " was selected as a "
+        },
+        {
+          "text": "Spotlight",
+          "bold": true
+        },
+        {
+          "text": " paper at NeurIPS 2025."
+        }
+      ],
+      "tag": "NEURIPS"
+    },
+    {
+      "date": "2025-07",
+      "label": "Jul 2025",
+      "parts": [
+        {
+          "text": "Curvature-aware Graph Attention for PDEs on Manifolds",
+          "url": "https://proceedings.mlr.press/v267/liao25b.html"
+        },
+        {
+          "text": " appeared at ICML 2025."
+        }
+      ],
+      "tag": "ICML"
+    }
+  ],
+  "settings": {
+    "publications_per_page": 4,
+    "news_per_page": 3
+  }
+}

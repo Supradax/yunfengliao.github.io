@@ -43,3 +43,5 @@ h1{font-size:46px;letter-spacing:-1.8px;margin-bottom:8px}.role{font-size:16px;m
 @media(min-width:1500px){.hero-inner{min-height:0}}
 
 .profile-links{flex-wrap:wrap;row-gap:8px}
+
+.name-alias{display:inline-block;font-size:.4em;font-weight:400;letter-spacing:0;vertical-align:middle;margin-left:.5em;color:var(--muted)}

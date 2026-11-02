@@ -41,3 +41,5 @@ h1{font-size:46px;letter-spacing:-1.8px;margin-bottom:8px}.role{font-size:16px;m
 #research{padding-top:26px}#research .section-head{margin-bottom:14px}#research .research-card{padding-top:13px;padding-bottom:12px}
 }
 @media(min-width:1500px){.hero-inner{min-height:0}}
+
+.profile-links{flex-wrap:wrap;row-gap:8px}

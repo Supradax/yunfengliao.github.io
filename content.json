@@ -1,4 +1,8 @@
 {
+  "settings": {
+    "publications_per_page": 4,
+    "news_per_page": 3
+  },
   "publications": [
     {
       "id": "skeletons",
@@ -191,9 +195,5 @@
       ],
       "tag": "ICML"
     }
-  ],
-  "settings": {
-    "publications_per_page": 4,
-    "news_per_page": 3
-  }
+  ]
 }

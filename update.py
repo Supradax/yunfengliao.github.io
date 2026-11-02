@@ -99,8 +99,11 @@ def news(items, per_page=3):
 
 def main():
     data = json.loads((ROOT / "content.json").read_text(encoding="utf-8-sig"))
+    settings = data.get("settings", {})
+    publications_per_page = page_size(settings.get("publications_per_page", 4))
+    news_per_page = page_size(settings.get("news_per_page", 3))
     page = (ROOT / "index.html").read_text(encoding="utf-8")
-    for label, content in (("PUBLICATIONS",publications(data["publications"],data.get("settings",{}).get("publications_per_page",4))),("NEWS",news(data["news"],data.get("settings",{}).get("news_per_page",3)))):
+    for label, content in (("PUBLICATIONS",publications(data["publications"],publications_per_page)),("NEWS",news(data["news"],news_per_page))):
         pattern = r"<!-- " + label + r"_START -->.*?<!-- " + label + r"_END -->"
         page, count = re.subn(pattern, lambda _: "<!-- " + label + "_START -->" + content + "<!-- " + label + "_END -->", page, flags=re.S)
         if count != 1: raise ValueError("Missing/duplicate page marker: " + label)
@@ -109,6 +112,11 @@ def main():
     temporary.write_text(page,encoding="utf-8")
     temporary.replace(ROOT / "index.html")
     print(f'Updated: {len(data["publications"])} publications, {len(data["news"])} news items.')
+    publication_pages = max(1, (len(data["publications"]) + publications_per_page - 1) // publications_per_page)
+    news_pages = max(1, (len(data["news"]) + news_per_page - 1) // news_per_page)
+    print(f"Publications: {publications_per_page} per page | {publication_pages} pages before filtering")
+    print(f"News: {news_per_page} per page | {news_pages} pages")
+    print("Change settings.publications_per_page and settings.news_per_page in content.json.")
     print("Refresh http://127.0.0.1:8765/ to see the changes.")
 
 if __name__ == "__main__":

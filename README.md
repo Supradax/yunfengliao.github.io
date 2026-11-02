@@ -24,6 +24,19 @@ NeurIPS uses conference year 2025 (Scholar indexes proceedings in 2026). Skeleto
 No GitHub push, registration, or deployment performed. Original archive preserved.
 
 
+## 每页显示条数
+
+打开 `content.json`，最前面的设置就是每页数量：
+
+```json
+"settings": {
+  "publications_per_page": 4,
+  "news_per_page": 3
+}
+```
+
+分别表示每页 4 篇论文、3 条新闻。修改为 1–100 的整数，保存后双击 `update.cmd`。脚本会显示实际每页数量与总页数。论文筛选后按同样的每页数量重新分页；新闻单独分页。只有一页时隐藏翻页按钮。发布时同时提交更新后的 `content.json` 和 `index.html`。
+
 ## 日常维护：只改 JSON
 
 1. 编辑 `content.json`，保存为 UTF-8。`publications` 是论文数组，`news` 是新闻数组，最新条目放最前。

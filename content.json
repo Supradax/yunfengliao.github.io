@@ -109,7 +109,8 @@
       "month": "September",
       "labels": [
         "Spotlight"
-      ]
+      ],
+      "bibtex": "@article{liao2026boundary,\n  title={Boundary-Value PDEs Meet Higher-Order Differential Topology-aware GNNs},\n  author={Liao, Yunfeng and Wu, Yangxin and Li, Xiucheng},\n  journal={Advances in Neural Information Processing Systems},\n  volume={38},\n  pages={77664--77697},\n  year={2026}\n}"
     },
     {
       "id": "curvgt",
@@ -130,8 +131,9 @@
       "keywords": [
         "Neural Operators"
       ],
-      "month": "July",
-      "labels": []
+      "month": "May",
+      "labels": [],
+      "bibtex": "@InProceedings{pmlr-v267-liao25b,\n  title = \t {Curvature-aware Graph Attention for {PDE}s on Manifolds},\n  author =       {Liao, Yunfeng and Guan, Jiawen and Li, Xiucheng},\n  booktitle = \t {Proceedings of the 42nd International Conference on Machine Learning},\n  pages = \t {37476--37494},\n  year = \t {2025},\n  volume = \t {267},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {13--19 Jul},\n  publisher =    {PMLR},\n}"
     }
   ],
   "news": [

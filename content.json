@@ -1,7 +1,7 @@
 {
   "settings": {
-    "publications_per_page": 4,
-    "news_per_page": 3
+    "publications_per_page": 5,
+    "news_per_page": 5
   },
   "publications": [
     {
@@ -160,6 +160,12 @@
       "institution": "HIT Shenzhen",
       "description": "My research lies at the intersection of **mathematical physics**, **computer graphics**, and **machine learning**. I work on geometry-aware learning and Monte Carlo methods for partial differential equations, advised by [Xiucheng Li](https://xiucheng.org/) at Harbin Institute of Technology, Shenzhen.",
       "education": [
+        {
+          "label": "Education",
+          "degree": "BSc in Computer Science",
+          "institution": "HIT Shenzhen",
+          "dates": "2022–2026"
+        },
         {
           "label": "Education",
           "degree": "BSc in Computer Science",

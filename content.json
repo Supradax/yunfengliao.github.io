@@ -21,7 +21,9 @@
       "summary": "Reusable transport structures for efficient PDE queries, changing boundary conditions, and interactive geometry edits.",
       "keywords": [
         "Walk on Spheres"
-      ]
+      ],
+      "month": "October",
+      "labels": []
     },
     {
       "id": "multiscale",
@@ -39,7 +41,9 @@
       "summary": "Compiling fine-scale heterogeneous transport into editable, composable prefabs for repeated pointwise PDE queries.",
       "keywords": [
         "Walk on Spheres"
-      ]
+      ],
+      "month": "October",
+      "labels": []
     },
     {
       "id": "envelopes",
@@ -59,7 +63,9 @@
       "summary": "Certified solution bounds transform branching diffusion to reduce computational cost while preserving unbiasedness.",
       "keywords": [
         "Walk on Spheres"
-      ]
+      ],
+      "month": "October",
+      "labels": []
     },
     {
       "id": "ambient",
@@ -77,7 +83,9 @@
       "summary": "Choosing surface embeddings and projection states jointly to improve stochastic PDE solving on folded geometry.",
       "keywords": [
         "Walk on Spheres"
-      ]
+      ],
+      "month": "October",
+      "labels": []
     },
     {
       "id": "dec-hognn",
@@ -95,9 +103,13 @@
       "teaser": "assets/dec-hognn-teaser.webp",
       "summary": "Higher-order message passing grounded in discrete exterior calculus for boundary-value problems in electromagnetism.",
       "code": "https://github.com/Supradax/Higher-Order-Differential-Topology-aware-GNN",
-      "spotlight": true,
       "keywords": [
         "Neural Operators"
+      ],
+      "month": "September",
+      "labels": [
+        "Spotlight",
+        "Oral"
       ]
     },
     {
@@ -118,82 +130,89 @@
       "code": "https://github.com/Supradax/CurvGT",
       "keywords": [
         "Neural Operators"
-      ]
+      ],
+      "month": "July",
+      "labels": []
     }
   ],
   "news": [
     {
       "date": "2026-10",
-      "label": "Oct 2026",
-      "parts": [
-        {
-          "text": "Four new preprints on Monte Carlo PDE solvers: "
-        },
-        {
-          "text": "reusable transport skeletons",
-          "url": "https://arxiv.org/abs/2610.36931"
-        },
-        {
-          "text": ", "
-        },
-        {
-          "text": "multiscale media",
-          "url": "https://arxiv.org/abs/2610.35952"
-        },
-        {
-          "text": ", "
-        },
-        {
-          "text": "certified solution envelopes",
-          "url": "https://arxiv.org/abs/2610.25297"
-        },
-        {
-          "text": ", and "
-        },
-        {
-          "text": "solver-adapted embeddings",
-          "url": "https://arxiv.org/abs/2610.15573"
-        },
-        {
-          "text": "."
-        }
-      ],
-      "tag": "PREPRINTS"
+      "tag": "PREPRINTS",
+      "text": "Four new preprints on Monte Carlo PDE solvers: [reusable transport skeletons](https://arxiv.org/abs/2610.36931), [multiscale media](https://arxiv.org/abs/2610.35952), [certified solution envelopes](https://arxiv.org/abs/2610.25297), and [solver-adapted embeddings](https://arxiv.org/abs/2610.15573)."
     },
     {
       "date": "2025-09",
-      "label": "Sept 2025",
-      "parts": [
-        {
-          "text": "DEC-HOGNN",
-          "url": "https://openreview.net/forum?id=PluDA8DEar"
-        },
-        {
-          "text": " was selected as a "
-        },
-        {
-          "text": "Spotlight",
-          "bold": true
-        },
-        {
-          "text": " paper at NeurIPS 2025."
-        }
-      ],
-      "tag": "NEURIPS"
+      "tag": "NEURIPS",
+      "text": "[DEC-HOGNN](https://openreview.net/forum?id=PluDA8DEar) was selected as a **Spotlight** paper at NeurIPS 2025."
     },
     {
       "date": "2025-07",
-      "label": "Jul 2025",
-      "parts": [
+      "tag": "ICML",
+      "text": "[Curvature-aware Graph Attention for PDEs on Manifolds](https://proceedings.mlr.press/v267/liao25b.html) appeared at ICML 2025."
+    }
+  ],
+  "site": {
+    "about": {
+      "name": "Yunfeng Liao",
+      "alias": "Supradax",
+      "role": "PhD Student",
+      "institution": "HIT Shenzhen",
+      "description": "My research lies at the intersection of **mathematical physics**, **computer graphics**, and **machine learning**. I work on geometry-aware learning and Monte Carlo methods for partial differential equations, advised by [Xiucheng Li](https://xiucheng.org/) at Harbin Institute of Technology, Shenzhen.",
+      "education": [
         {
-          "text": "Curvature-aware Graph Attention for PDEs on Manifolds",
-          "url": "https://proceedings.mlr.press/v267/liao25b.html"
-        },
-        {
-          "text": " appeared at ICML 2025."
+          "label": "Education",
+          "degree": "BSc in Computer Science",
+          "institution": "HIT Shenzhen",
+          "dates": "2022–2026"
         }
       ],
-      "tag": "ICML"
-    }
-  ]
+      "links": [
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.com/citations?user=ESAGr1sAAAAJ&hl=en",
+          "external": true
+        },
+        {
+          "label": "OpenReview",
+          "url": "https://openreview.net/profile?id=%7EYunfeng_Liao1",
+          "external": true
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Supradax",
+          "external": true
+        },
+        {
+          "label": "Email",
+          "url": "#contact",
+          "external": false
+        }
+      ],
+      "footerInstitution": "Harbin Institute of Technology, Shenzhen"
+    },
+    "research": [
+      {
+        "number": "01",
+        "title": "Mathematical Physics",
+        "body": "Exploring the geometry and structure of physical laws, from differential geometry to stochastic representations of PDEs.",
+        "keywords": "Differential geometry · PDEs",
+        "icon": "geometry"
+      },
+      {
+        "number": "02",
+        "title": "Computer Graphics",
+        "body": "Building geometry-aware, grid-free solvers for physical simulation and creating interactive computational worlds.",
+        "keywords": "Monte Carlo · Physical simulation",
+        "icon": "graphics"
+      },
+      {
+        "number": "03",
+        "title": "Machine Learning",
+        "body": "Designing neural methods that encode intrinsic geometry, topology, and the structure of physical problems.",
+        "keywords": "Geometric learning · Neural operators",
+        "icon": "network"
+      }
+    ]
+  }
 }

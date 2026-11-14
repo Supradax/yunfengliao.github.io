@@ -45,3 +45,8 @@ h1{font-size:46px;letter-spacing:-1.8px;margin-bottom:8px}.role{font-size:16px;m
 .profile-links{flex-wrap:wrap;row-gap:8px}
 
 .name-alias{display:inline-block;font-size:.4em;font-weight:400;letter-spacing:0;vertical-align:middle;margin-left:.5em;color:var(--muted)}
+
+.education-list{display:flex;flex-direction:column;gap:4px}.education-list>span{display:block}.paper-label{display:inline-block;background:#e5eef9;color:#2f5b91;padding:1px 8px;letter-spacing:.7px;margin-left:8px;font-size:9px}.paper-year{display:flex;flex-direction:column;align-items:flex-end;gap:2px}.paper-month{font-size:10px;color:var(--accent);text-transform:uppercase;letter-spacing:.4px}.paper-year-number{font-size:10px;color:#60787d}
+
+/* JSON-driven profile detail spacing. */
+.education-list{display:flex;flex:1;min-width:0;flex-direction:column;gap:12px}.education-entry{display:block;line-height:1.55;margin:0;padding:0 0 10px;border-bottom:1px solid #e4e9f0}.education-entry:last-child{padding-bottom:0;border-bottom:0}.education-entry strong{display:inline-block}.paper-label{display:inline-block!important;background:#e5eef9!important;color:#2f5b91!important;padding:1px 8px!important;letter-spacing:.7px;margin-left:8px;font-size:9px;line-height:1.5;vertical-align:middle;text-transform:uppercase}.paper-label+.paper-label{margin-left:5px}.paper-year{display:flex;flex-direction:column;align-items:flex-end;gap:2px}.paper-date{font-size:10px;color:#60787d;white-space:nowrap}

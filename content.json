@@ -5,6 +5,26 @@
   },
   "publications": [
     {
+      "id": "new-1794895337094",
+      "title": "Beyond Heat Balls: Unified Gaussian Level Set Walks for Diffusion and Higher-Order Dynamics",
+      "authors": [
+        "Yunfeng Liao",
+        "Xiucheng Li"
+      ],
+      "year": 2026,
+      "type": "preprint",
+      "venue": "Zenodo",
+      "url": "https://zenodo.org/records/24298246",
+      "pdf": "assets/WoGLS-WoGSt.pdf",
+      "teaser": "assets/empty.webp",
+      "summary": "",
+      "keywords": [
+        "Walk on Spheres"
+      ],
+      "labels": [],
+      "month": "November"
+    },
+    {
       "id": "skeletons",
       "title": "From Walks to Skeletons: A Reusable Transport Architecture for Interactive Monte Carlo PDE Solvers",
       "authors": [
